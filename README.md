@@ -19,13 +19,16 @@ O site deverá ter duas telas:
 2. Tela com as informações detalhadas da roupa selecionada na tela 1. 
 
 As informações da roupa que devem ser exibidas na tela 2 são:
-- Imagem;
-- Nome;
-- Preço;
-- Status de promoção;
+- Imagem; *
+- Nome; *
+- Preço; *
+- Status de promoção; obs*
 - Preço promocional (se houver);
-- Parcelamentos disponíveis;
+- Parcelamentos disponíveis; *
+
+
 - Tamanhos disponíveis.
+
 - Pontos importantes:
 - Qualquer outro atributo que vier na api, que não represente os citados, deve ser ignorado.
 - Caso exista um preço promocional, exibir uma tag de promoção e "cortar" o preço regular.
